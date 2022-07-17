@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #b469ff;
+  --dark-color: #040815;
+}
+
+.bg-purple {
+  background-color: var(--primary-color);
+  color: white
+}
+.bg-purple-gradient {
+  border: rgb(205 156 255);
+  background: linear-gradient(241deg, rgb(205 156 255) 0%, rgb(180 105 255) 100%);
+  color: white;
+  transition: all .3s;
+}
+
+.btn.bg-purple-gradient:hover {
+  transform: scale(1.1);
+}
+
+.p-128 {
+  padding: 8rem 0;
+}
